@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fatima Sugra - CV</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+    padding: 2rem;
+  }
+  .card {
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 1.2rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    backdrop-filter: blur(8px);
+    background-color: rgba(255,255,255,0.8);
+  }
+  .accordion-button {
+    background: linear-gradient(90deg, #7f7fd5, #86a8e7, #91eae4);
+    color: white;
+    font-weight: 600;
+    border-radius: 20px !important;
+    transition: all 0.3s ease;
+  }
+  .accordion-button:not(.collapsed) {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  .accordion-body {
+    background-color: #ffffff;
+    border-radius: 0 0 20px 20px;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #d5cfcf;
+  }
+  .header p {
+    font-size: 1.2rem;
+    color: #c7bfbf;
+  }
+</style>
+
+</head>
+<body>
+
+  <div class="header">
+    <h1>Fatima Sugra</h1>
+    <p>Software Engineer | Creative Thinker | Fast Learner</p>
+  </div>
+
+  <div class="accordion" id="cvAccordion">
+
+    <div class="accordion-item card">
+      <h2 class="accordion-header">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#about">
+          👩 About Me
+        </button>
+      </h2>
+      <div id="about" class="accordion-collapse collapse show" data-bs-parent="#cvAccordion">
+        <div class="accordion-body">
+          Enthusiastic software engineering student with a passion for front-end design and modern UI experiences.
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item card">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#education">
+          🎓 Education
+        </button>
+      </h2>
+      <div id="education" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
+        <div class="accordion-body">
+          <strong>BS Software Engineering</strong><br>
+          Gift University, Gujranwala<br>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item card">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#skills">
+          💻 Skills
+        </button>
+      </h2>
+      <div id="skills" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
+        <div class="accordion-body">
+          • HTML, CSS, Bootstrap<br>
+          • React<br>
+          • JavaScript<br>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item card">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#projects">
+          🚀 Projects
+        </button>
+      </h2>
+      <div id="projects" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
+        <div class="accordion-body">
+          <strong> Typing speed tester (Java)</strong><br>
+          <br>
+
+          <strong> pizza App (React Native)</strong><br>
+        </div>
+      </div>
+    </div>
+
+    <div class="accordion-item card">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#contact">
+          📫 Contact
+        </button>
+      </h2>
+      <div id="contact" class="accordion-collapse collapse" data-bs-parent="#cvAccordion">
+        <div class="accordion-body">
+          📧Email: 221400061@gift.edu.pk<br>
+          💼 <a href="https://www.linkedin.com/in/syeda-fatima-84b1a8300/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">linkedin</a>
+
+        
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
